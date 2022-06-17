@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+
+main{
+    margin: 10%;
+}
+
+
+.themain{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.textarea{
+    align-self: center;
+    color: white;
+    padding: 60px;
+    
+}
+
+h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.aside{
+    
+    
+}
+
+.top{
+background-color: hsl(248, 32%, 49%);
+color: whitesmoke;
+text-align: center;
+padding: 10px 0;
+margin-bottom: 15px;
+border-radius: 5px;
+}
+
+
+input{
+    
+    padding: 15px 180px 15px 30px;
+    margin: 10px;
+    border-style: groove;
+    border-color: white;
+}
+
+input:invalid{
+    border: 2px solid red;
+    
+  }
+input:empty{
+    
+}
+.bottom{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    padding: 15px 110px;
+    border-style: none;
+    margin-left: 10px;
+
+
+}
+
+.p{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (max-width: 357px)
+    {
+        .themain{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .textarea{
+           
+            color: #ffffff;
+            padding: 0;
+            margin-bottom: 50px;
+
+            
+        }
+
+        .textarea p{
+           
+            text-align: center;
+            font-size: 15px;
+
+            
+        }
+        
+        h1{
+            font-size: 39px;
+            padding-bottom: 20px;
+        }
+        
+        .aside{
+            
+            
+        }
+        
+        .top{
+        background-color: hsl(248, 32%, 49%);
+        color: whitesmoke;
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        }
+
+        .top p{
+            font-size: 15px;
+        }
+
+        
+        
+        input{
+            padding: 10px 20px;
+            margin: 10px;
+            border-style: groove;
+            border-color: white;
+        }
+        
+        .bottom{
+            background-color: white;
+            
+            border-radius: 5px;
+        
+        }
+        
+        button{
+            background-color: hsl(154, 59%, 51%);
+            color: white;
+            text-align: center;
+            padding: 15px 24px;
+            border-style: none;
+            margin-left: 10px;
+            
+        
+        
+        }
+        
+        
+        a{
+            text-decoration: none;
+            color: hsl(0, 100%, 74%);
+            
+        }
+
+        .p{
+            line-height: 30px;
+            
+            
+        }
+
+    }
+
+    
